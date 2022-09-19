@@ -8,6 +8,7 @@ public class TestCompareThreeNumbers {
 		obj.askTheUserForThreeNumbers();
 		obj.compareThreeNumbers();
 		
+	
 		
 	}
 
