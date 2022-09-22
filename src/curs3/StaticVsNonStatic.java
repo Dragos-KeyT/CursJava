@@ -6,7 +6,7 @@ public class StaticVsNonStatic {
 	public String nume = "Jhonny";
 	
 	public String printeazaNume() {
-		return "Hello " + prenume;
+		return "Hello " + prenume + nume;
 	}
 	
 	//end of instance area

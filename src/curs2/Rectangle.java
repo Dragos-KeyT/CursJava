@@ -12,13 +12,13 @@ public class Rectangle {
 		setLenght(lenght);
 		setWidth(width);
 	}
+	
 	public Rectangle(int lenght, int width, int bigArea) {
 		setLenght(lenght);
 		setWidth(width);
-		this.bigArea = bigArea;
-		
+		this.bigArea = bigArea;	
 	}
-	
+
 	public int getLenght() {
 		return lenght;
 	}

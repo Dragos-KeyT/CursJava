@@ -23,8 +23,11 @@ public class CheckOddOrEven {
 		Scanner scan = new Scanner(System.in);
 		number = scan.nextInt();
 		scan.close();
-				
+						
 	}
+	
+	//  = operator de atribuire   x = 8
+	//  ==  operator de comparatie  x == 8 
 	
 	public void checkIfNumberIsOddOrEven() {
 		

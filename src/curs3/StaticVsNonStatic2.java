@@ -8,14 +8,15 @@ public class StaticVsNonStatic2 {
 	
 
 	public static void main(String[] args) {
-
-	/*	StaticVsNonStatic obj = new StaticVsNonStatic();
+/*
+		StaticVsNonStatic obj = new StaticVsNonStatic();
 		System.out.println(obj.nume);
 		System.out.println(obj.printeazaNume());
 		
 		
 		System.out.println(StaticVsNonStatic.prenume);
 		System.out.println(StaticVsNonStatic.printeazaMesajStatic()); */
+		
 		
 	StaticVsNonStatic2 person =  new StaticVsNonStatic2();
 	person.nume = "Jhonny";

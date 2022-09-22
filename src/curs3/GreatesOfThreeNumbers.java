@@ -18,6 +18,7 @@ public class GreatesOfThreeNumbers {
 	int number2;
 	int number3;
 	
+	
 	public void askTheUserForThreeNumbers() {
 		Scanner scan  =  new Scanner(System.in);
 		System.out.println("Please enter first number :");
