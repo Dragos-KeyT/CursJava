@@ -25,6 +25,10 @@ public class LetterSearch {
 		
 		for(int i=0; i<text.length(); i++) {
 			// text = ceva => text.charAt(0) --> c ; text.charAt(1) --> 3
+			//radar
+			//01234
+			//radar.charAt(i)
+			
 
 			if(text.charAt(i) == 'a' || text.charAt(i) == 'A') {
 				counter++;

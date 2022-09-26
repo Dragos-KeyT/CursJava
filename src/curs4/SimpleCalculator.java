@@ -11,9 +11,13 @@ import java.util.Scanner;
  * 
  */
 
-	//   masina.charAt(0) == m   
+	//   masina.charAt(0) == m     "masina este  verde?"  "124628"
 	//   012345
-   // 2x2 = 
+	//   masina.lenght() == 6
+   
+
+
+	// 2x2 = 
 	//   || --> OR  |
 	//    && --> AND
 
@@ -25,6 +29,7 @@ public class SimpleCalculator {
 	int number2;
 	char operator;
 	int result;
+		
 	
 	public void askTheUser() {
 		Scanner scan  =  new Scanner(System.in);
@@ -38,7 +43,6 @@ public class SimpleCalculator {
 	
 	
 	public void calculateValues() {
-		
 		askTheUser();
 		
 		if(operator == '+') {

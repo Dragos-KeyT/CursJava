@@ -29,8 +29,10 @@ public class PasswordValidator {
 	 * 
 	 */
 	String username;
-	String password;
-	
+	//String password;
+	Scanner scan  =  new Scanner(System.in);
+	boolean valid;
+
 	public void printPassowrdRules() {
 		System.out.println("Reguli parola:");
 		System.out.println("1.Parola trebuie sa contina 10 caractere");
@@ -39,16 +41,28 @@ public class PasswordValidator {
 	}
 	
 	
-	public void insertUsernameAndPassword() {
-		Scanner scan  =  new Scanner(System.in);
+	public void getUsername() {
 		System.out.println("Te rog sa introduci username:");
 		username = scan.next();
-		System.out.println("Te rog sa introduci o parola: ");
-		password =  scan.next();
+		//password =  scan.next();
 	}
-	boolean valid;
 	
-	public void checkPasswordRules() {
+	
+	public String getProposedPassword() {
+	
+		System.out.println("Te rog sa introduci o parola: ");
+		return scan.next();
+	}
+	
+	
+	
+	
+	
+	public boolean isValid() {
+		return valid;
+	}
+	
+	public void checkPasswordRules(String password) {
 		valid =true;
 		
 		if(password.length() <10) {
@@ -74,12 +88,14 @@ public class PasswordValidator {
 		
 		PasswordValidator obj = new PasswordValidator();
 		obj.printPassowrdRules();
-		obj.insertUsernameAndPassword();
-		System.out.println(obj.password);
-		System.out.println(obj.username);
+		obj.getUsername();
 		
-		obj.checkPasswordRules();
+		do {
+			obj.checkPasswordRules(obj.getProposedPassword());
+
+		}while(!obj.isValid());
 		
+		System.out.println("Parola este valida!");
 		
 	}
 

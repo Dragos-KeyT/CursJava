@@ -4,17 +4,16 @@ public class Palindrom {
 
 	public static void main(String[] args) {
 
-		
-		checkIfWordIsPalindrome("masina");
-		
+		checkIfWordIsPalindrome("radar");		
 		
 	}
 
 	//radar
 	//masina
+	//1221
 	
-	//         01234 
-	//cuvant = radar --> radar.lenght() = 5
+	//         012345 
+	//cuvant = radar  --> radar.lenght() = 5
     //cuvantIntors = ""
 	//cuvantIntors = cuvat.charAt(4)
 	//cuvantIntors = cuvantIntors + "r"
@@ -30,7 +29,7 @@ public class Palindrom {
 		String cuvantIntors = "";
 		
 		for(int i=cuvant.length()-1; i>=0; i--) {
-			
+
 			cuvantIntors = cuvantIntors + cuvant.charAt(i);	
 			
 		}

@@ -18,9 +18,9 @@ public class WhileExample {
 		String[] array = {"one", "two", "three", "four"};
 		
 		while(j<array.length) {
-			j++;
+		//	j++;
 			System.out.println(array[j]);
-			//j++;
+			j++;
 		}
 		
 		

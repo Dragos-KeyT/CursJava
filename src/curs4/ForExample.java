@@ -4,11 +4,14 @@ public class ForExample {
 
 	public static void main(String[] args) {
 
-		for(int i = 0; i < 10; i++) {
-			System.out.println("Code inside for : " + i);	
-			
+		for(int i = 1; i <= 10; i++) {
+			int nr = 3;
+			//System.out.println("Code inside for : " + nr *i);	
+			System.out.println( nr + " x " + i + " = " + (nr *i));
 		}
-			
+	
 	}
+	
+
 
 }

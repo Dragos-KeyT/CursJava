@@ -4,6 +4,8 @@ public class IncrementDecrementExample {
 
 	public static void main(String[] args) {
 
+		//  nr++   nr = nr+1  nr += 1
+		
 		
 		// num++  --> post increment --> num++ = num +1
 		// ++num  --> pre increment

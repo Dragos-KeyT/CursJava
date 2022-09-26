@@ -4,6 +4,11 @@ public class TernaryOperator {
 	
 	public static void main(String[] args) {
 		
+		// ? : --> operator ternar --> actioneaza astupra 3 operanzi
+		// + --> operator binar --> operaza asupar 2 operanzi
+		// ++ --> operator unar --> actioneaza asupra unui singur operand
+		
+		
 		int a = 60;
 		int b = 130;
 		

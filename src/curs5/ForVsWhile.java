@@ -102,13 +102,32 @@ public class ForVsWhile {
 		}
 		
 		
-		int j =0;
 		
+		int j =0;
 		while(j<10) {
+
 			System.out.println(j);
 			j++;
-
 		}
+		
+		
+		boolean flag = true;
+		
+		for(;flag==true; ) {
+			
+			//code care updateaza flag
+			
+		}
+		
+		while(flag) {
+		
+			//code care updateaza flag
+
+			
+		}
+		
+		
+
 	}
 
 	
