@@ -23,8 +23,8 @@ public class DiceGame {
 	/*	double dice =  Math.random()*6+1;
 		System.out.println(dice);
 		int dice2 = (int) (Math.random()*6+1);
-		System.out.println(dice2);
-	*/
+		System.out.println(dice2); */
+	
 		
 		while(condition) {
 	

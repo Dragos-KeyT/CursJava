@@ -19,7 +19,6 @@ public class IsCharVowel {
 		//aeiouAEIOU
 		
 		switch(litera) {
-		
 		case 'a':
 		case 'e':
 		case 'i':
